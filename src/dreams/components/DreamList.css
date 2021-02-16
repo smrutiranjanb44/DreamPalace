@@ -1,0 +1,34 @@
+.dream-list {
+    list-style: none;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 700px;
+    border: 2px solid aqua;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+
+.dream-list::-webkit-scrollbar {
+    display: none;
+  }
+
+.dream-list-zero{
+    padding: 0;
+    margin: 30vh 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .dream-list {
+    height: 85vh;
+    margin: auto;
+    }
+  }
+
